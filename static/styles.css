@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+  }
+  
+  .gallery-item {
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+  }
+  
